@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/navigation_graph"
+            app:startDestination="@id/loginActivity">
+    <activity android:id="@+id/loginActivity" android:name="com.wassim.noteapp.login.LoginActivity"
+              android:label="activity_login" tools:layout="@layout/fragment_login"/>
+
+    <fragment android:id="@+id/noteDetailView" android:name="com.wassim.noteapp.notes.notesdetails.NoteDetailView"
+              android:label="fragment_note_detail_view" tools:layout="@layout/fragment_note_detail_view">
+        <action android:id="@+id/action_noteDetailView_to_noteListView" app:destination="@id/noteListView"/>
+        <argument android:name="id_note" app:argType="string"/>
+    </fragment>
+
+    <fragment android:id="@+id/noteListView" android:name="com.wassim.noteapp.notes.noteslistview.NoteListView"
+              android:label="fragment_note_list_view" tools:layout="@layout/fragment_note_list_view">
+        <action android:id="@+id/action_noteListView_to_loginActivity" app:destination="@id/loginActivity"/>
+        <action android:id="@+id/action_noteListView_to_noteDetailView" app:destination="@id/noteDetailView"/>
+    </fragment>
+</navigation>

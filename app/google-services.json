@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "883457689940",
+    "firebase_url": "https://note-app-32c16.firebaseio.com",
+    "project_id": "note-app-32c16",
+    "storage_bucket": "note-app-32c16.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883457689940:android:5a0657f14b19543a51a0c1",
+        "android_client_info": {
+          "package_name": "com.wassim.noteapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "883457689940-q9bu92vskqg52tr7chui8tfpasd0njjd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wassim.noteapp",
+            "certificate_hash": "d85d328fd13ea1a44b6801d11e2f35a9953b07e4"
+          }
+        },
+        {
+          "client_id": "883457689940-787cal8vt3dv9h3gfnam6gpqd8a9f953.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOv-gKqNlA-Xmb2t91Aq4h7jftNiW-0wE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "883457689940-787cal8vt3dv9h3gfnam6gpqd8a9f953.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
